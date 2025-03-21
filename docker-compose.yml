@@ -1,0 +1,24 @@
+version: '3.8'
+
+services:
+  backend:
+    build: ./backend
+    environment:
+      - ALPHA_VANTAGE_KEY=QTSMX08LZE8ZZZBI
+      - NEWSAPI_KEY=3d7a111e706744e887719d997e7d0688
+    ports:
+      - "5000:5000"  # Critical for external access
+    networks:
+      - stock-network
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    networks:
+      - stock-network
+
+networks:
+  stock-network:
