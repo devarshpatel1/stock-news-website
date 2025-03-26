@@ -1,25 +1,55 @@
-# stock-news-website
-This website shows the stock price chart and the stock news using the API
-STOCK API : https://www.alphavantage.co/
-NEWS API : https://newsapi.org/
+# 📈 Stock News Website  
 
-## 🚀 Running the Application
+A web application that displays stock price charts and the latest stock-related news using external APIs.  
 
-Follow these steps to start the application:
+- **Stock Data** powered by [Alpha Vantage API](https://www.alphavantage.co/)  
+- **News Updates** powered by [News API](https://newsapi.org/)  
 
-1. **Clone the repository**  
-   ```bash
-   git clone https://github.com/devarshpatel1/stock-news-website
-   cd stock-news-website
-   ```
+## 🚀 Features  
 
-2. **Start the application using Docker Compose:**  
-   ```bash
-   docker-compose up --build
-   ```
-
-   This command will build and start all services defined in the `docker-compose.yml` file.
-3. **Access the application:**  
-   Open your browser and navigate to `http://localhost:3000`.
+✅ View real-time stock price charts  
+✅ Fetch the latest stock market news  
+✅ Responsive and user-friendly design  
 
 ---
+
+## 📌 Getting Started  
+
+Follow these steps to set up and run the application on your local machine.
+
+### 1️⃣ Clone the Repository  
+```bash
+git clone https://github.com/devarshpatel1/stock-news-website
+cd stock-news-website
+```
+
+### 2️⃣ Start the Application Using Docker Compose  
+```bash
+docker-compose up --build
+```
+This command will build and start all services defined in the `docker-compose.yml` file.
+
+### 3️⃣ Access the Application  
+Open your browser and navigate to:  
+🔗 **http://localhost:3000**
+
+---
+
+## 🛠️ Roadmap  
+
+🚀 **Planned Improvements:**  
+
+- 🎨 Implement additional stylesheets for an enhanced frontend experience  
+- 🔐 Add authentication for user accounts  
+- 📊 Integrate a **live stock price tracking** feature  
+- 📢 Implement a **stock price alert system**  
+- 💼 Upgrade to a **professional UI design**  
+
+---
+
+## 🤝 Contributing  
+
+Feel free to fork this repository, make improvements, and submit a pull request. Contributions are welcome!  
+
+---
+
