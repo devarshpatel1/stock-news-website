@@ -4,8 +4,8 @@ services:
   backend:
     build: ./backend
     environment:
-      - ALPHA_VANTAGE_KEY=QTSMX08LZE8ZZZBI
-      - NEWSAPI_KEY=3d7a111e706744e887719d997e7d0688
+      - ALPHA_VANTAGE_KEY= API KEY
+      - NEWSAPI_KEY= API KEY
     ports:
       - "5000:5000"  # Critical for external access
     networks:
