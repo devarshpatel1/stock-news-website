@@ -38,6 +38,7 @@ Open your browser and navigate to:
 ## 📸 Screenshots
 ![image](https://github.com/user-attachments/assets/73dc7a70-0de4-4db4-8fca-f7bb0fd1e4d4)
 
+---
 ## 🛠️ Roadmap  
 
 🚀 **Planned Improvements:**  
